@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif, Arial;
+  height: 100vh;
+}
+
+#app {
+  max-width: 400px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 0 10px #0004;
+  border-radius: 8px;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form input, .form button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form label {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
