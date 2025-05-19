@@ -1,15 +1,17 @@
 body {
   font-family: sans-serif, Arial;
-  height: 100vh;
 }
 
 #app {
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   margin: 40px auto;
 }
 
 .form {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -24,9 +26,17 @@ body {
 .form input, .form button {
   padding: 10px;
   margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #0005;
 }
 
 .form label {
   font-size: 1.2rem;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
+}
+
+#data {
+  padding: 40px;
+  box-shadow: 0 0 10px #0001;
+  border-radius: 8px;
 }
